@@ -1,0 +1,46 @@
+{
+  "name": "javascript-string-format-polyfill",
+  "version": "1.0.0",
+  "description": "Logic-less polyfill to add {{mustache}} templates to String type",
+  "author": "Leandro S. Gomes <http://github.com/leandroluk>",
+  "homepage": "https://github.com/leandroluk/javascript-string-format-polyfill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroluk/javascript-string-format-polyfill.git"
+  },
+  "keywords": [
+    "mustache",
+    "string",
+    "template",
+    "templates",
+    "ejs",
+    "polyfill",
+    "format"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.5"
+  },
+  "dependencies": {
+    "jest": "^29.3.1",
+    "mustache": "^4.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/leandroluk/javascript-string-format-polyfill/issues"
+  },
+  "license": "MIT"
+}
