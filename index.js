@@ -24,7 +24,7 @@
       view = { ...view, ...props.view }
       partials = props.partials
       config = props.config
-    } else {
+    } else if (arguments.length > 2) {
       if (!isObj(arguments[1])) throw new TypeError('view must be a object')
       view = { ...view, ...arguments[1] }
       partials = arguments[2]
