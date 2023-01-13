@@ -1,6 +1,6 @@
 {
   "name": "javascript-string-format-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logic-less polyfill to add {{mustache}} templates to String type",
   "author": "Leandro S. Gomes <http://github.com/leandroluk>",
   "homepage": "https://github.com/leandroluk/javascript-string-format-polyfill#readme",
